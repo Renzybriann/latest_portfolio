@@ -110,7 +110,7 @@ export const AboutModal = ({ isVisible, onClose }) => {
     >
       <div 
         ref={boxRef} 
-        className="relative max-h-[90vh] w-full max-w-6xl overflow-y-auto rounded-xl border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-900 p-8 shadow-xl"
+        className="relative max-h-[90vh] w-full max-w-6xl overflow-y-auto rounded-xl border border-slate-200 dark:border-slate-500 bg-white dark:bg-black p-8 shadow-xl"
         onClick={(e) => e.stopPropagation()}
         style={{ 
           opacity: 0,

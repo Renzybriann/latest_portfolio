@@ -4,7 +4,7 @@ import { LinkButton } from '../../shared/LinkButton';
 export const ProjectInfo = ({ title, description, techStack, liveUrl, repoUrl }) => (
   <div className="flex flex-col gap-4 text-center md:text-left">
     <h2 className="text-5xl font-bold">{title}</h2>
-    <p className="text-xl text-slate-300">{description}</p>
+    <p className="text-xl dark:text-slate-300">{description}</p>
     <div className="flex flex-wrap justify-center gap-2 md:justify-start">
       {techStack.map(tech => <TechPill key={tech} tech={tech} />)}
     </div>
