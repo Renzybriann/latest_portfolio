@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+
+/* In your global CSS or App.css */
+html {
+  overflow-y: scroll; /* Always show scrollbar */
+}
+
+/* Or use this to reserve space for scrollbar */
+body {
+  padding-right: 0 !important; /* Override modal padding */
+}
+
+html {
+  scrollbar-gutter: stable; /* Reserve space for scrollbar (modern browsers) */
+}
