@@ -32,7 +32,7 @@ export default function App() {
           title="Let's Build Something Great." 
           text="Have a project in mind? I'm currently available for freelance opportunities." 
         >
-          <LinkButton href="mailto:email@example.com" variant="solid">
+          <LinkButton href="mailto:matiasrenzbrian@gmai.com" variant="solid">
             Get in Touch
           </LinkButton>
         </ContentSection>

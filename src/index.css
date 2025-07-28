@@ -1,9 +1,12 @@
 @import "tailwindcss";
 
+/* Define custom dark variant for Tailwind v4 */
+@variant dark (&:where(.dark, .dark *));
 
-/* In your global CSS or App.css */
+/* Global styles */
 html {
   overflow-y: scroll; /* Always show scrollbar */
+  scrollbar-gutter: stable; /* Reserve space for scrollbar (modern browsers) */
 }
 
 /* Or use this to reserve space for scrollbar */
@@ -11,6 +14,9 @@ body {
   padding-right: 0 !important; /* Override modal padding */
 }
 
-html {
-  scrollbar-gutter: stable; /* Reserve space for scrollbar (modern browsers) */
+/* Smooth color transitions for theme switching */
+* {
+  transition-property: background-color, border-color, color, fill, stroke;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 300ms;
 }
